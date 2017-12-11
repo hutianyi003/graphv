@@ -115,6 +115,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="graphv.cpp" />
+    <ClCompile Include="graphv_algorithm.cpp" />
+    <ClCompile Include="graphv_creator.cpp" />
+    <ClCompile Include="graphv_visual.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="graphv.h" />
+    <ClInclude Include="graphv_algorithm.h" />
+    <ClInclude Include="graphv_visual.h" />
+    <ClInclude Include="graphv_creator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
